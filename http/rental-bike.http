@@ -1,0 +1,8 @@
+### 바이크 임대
+POST http://localhost:8080/bikes?bikeType=city&location=hanam
+
+### 특정 바이크 조회
+GET http://localhost:8080/bikes/a23df7ef-0554-4e48-8cda-0fd3107b282d
+
+### 바이크 전체 조회
+GET http://localhost:8080/bikes

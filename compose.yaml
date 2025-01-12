@@ -1,0 +1,12 @@
+services:
+  axonserver:
+    image: 'axoniq/axonserver:latest'
+    environment:
+      # 초기 구성을 하지 않고 실행할 수 있도록 설정하는 방법이다.
+      - 'AXONIQ_AXONSERVER_STANDALONE=TRUE'
+    ports:
+      # Axon 콘솔에 접근하기 위한 용도다.
+      - '8024:8024'
+      # Axon 서버 grpc 포트다.
+      - '8124:8124'
+

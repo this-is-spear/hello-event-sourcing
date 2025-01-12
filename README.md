@@ -8,6 +8,12 @@
 Axon 서버를 쉽게 사용할 수 있는 유틸 함수를 제공하고 있다. 
 Axon 서버는 커맨드를 실행하고 이벤트를 발행하도록 도와준다.
 
+### TODO LIST
+
+- [X] : https://docs.axoniq.io/bikerental-demo/main/
+- [ ] : https://docs.axoniq.io/playbook/
+- [ ] : https://docs.axoniq.io/dead-letter-queue-guide/development/implementing/
+
 ### 주요 기능
 
 #### Axon framework로 command, query 관련 인터페이스 제공
